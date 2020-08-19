@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block head %}
+<script>
+
+</script>
+{% endblock %}
+{% block body %}
+
+<div  class="jumbotron text-center">
+    <h1>Curious Games</h1>
+    <p>Let the journey of curiocity begin</p>
+</div>
+<div class="row" style="margin:15px; padding:10px;">
+  <div class="col-sm-3">
+    .
+  </div>
+  <div class="col-sm-6" style="font-size: 24px;">
+    <h4>Greetings from </h4> <h3 style="font-family:Times New Roman; color:blue">Curious Games.</h3> Our team
+    have started working on testing of our upcoming video game you are waiting
+    for months is ready. To get it earliar than anyone else
+    rgister yourself in our beta access membership and get the
+    most stable version.
+    <p><a href="/register/beta"><button class="btn btn-primary my-2 my-sm-0" type="submit" name="button">Registe now</button></a></p>
+  </div>
+  <div class="col-sm-3">
+    .
+  </div>
+  <div class="col-sm-10" >
+    <p style="padding:20px; color: royalblue; font-size: 28px;">Crazy Ball:</p>
+    <p style="padding: 35px; color: rgb(53, 53, 53); font-size: 20px;">The very first game we designed was a 2D ball game very simple using
+    love2d engine. This was a retro style game created in 2020 during those days people were plating the 3D games with high graphics and superior gameplay.
+    The concept was to manage the boll bouncing using three sliding bars slidingat different speed.
+    </p>
+  </div>
+
+</div>
+<img style="  display: block; margin-left: auto; margin-right: auto; width: 50%; height: 50%;" src="static\first_game.png" alt="Image not availabe">
+<div style="padding:10px; margin:20px; background-color: gray;">
+  <form class="form" method="post">
+    <div>
+        First Name <input class="form-control mr-sm-2" type="text" name="first_name" placeholder="First name">
+    </div>
+    <div>
+        Last Name<input class="form-control mr-sm-2" type="text" name="last_name" placeholder="Last name">
+    </div>
+    <div>
+        E-mail: <input class="form-control mr-sm-2" type="email" name="mail_id" placeholder="E-mail Id">
+    </div>
+  </form>
+</div>
+{% endblock %}
